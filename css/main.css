@@ -1,0 +1,10 @@
+body {
+    background-color: bisque;
+    margin: 0;
+}
+
+/* Targeting a class in CSS - ecery element with the class of header will recieve these CSS rules*/
+.header {
+    background-color: grey;
+    font-family: cursive;
+}
