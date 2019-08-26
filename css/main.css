@@ -1,11 +1,12 @@
 body {
-    background-color: bisque;
+    background-color: rgb(32, 33, 34);
     margin: 0;
+    color: white
 }
 
 /* Targeting a class in CSS - ecery element with the class of header will recieve these CSS rules*/
 .header {
-    background-color: gray;
+    background-color: rgba(143, 137, 137, .50);
     font-family: cursive;
     overflow: hidden;
 }
@@ -15,11 +16,24 @@ h1 {
     margin: 20px;
 }
 
+/* These CSS rules will be applied when we hover over an anchor element inside of an element inside of an element using the header class */
+.header a:hover {
+    background-color: lightgray;
+}
+
 .headerLink {
     padding: 14px 16px;
     text-decoration: none;
     color: silver;
     font-size: 20pt;
+    
+    /*
+        Red: f * f = 15 * 15 = 255
+        Blue f * f = 15 * 15 = 255
+        Green f * f = 15 * 15 - 255
+
+        255, 255, 255
+    */
 }
 
 /* Target an ID in CSS - the element with the ID of homeLink will recieve these CSS rules */
