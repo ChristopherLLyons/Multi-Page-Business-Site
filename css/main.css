@@ -5,6 +5,33 @@ body {
 
 /* Targeting a class in CSS - ecery element with the class of header will recieve these CSS rules*/
 .header {
-    background-color: grey;
+    background-color: gray;
     font-family: cursive;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.headerLink {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: silver;
+    font-size: 20pt;
+}
+
+/* Target an ID in CSS - the element with the ID of homeLink will recieve these CSS rules */
+
+#homeLink {
+    float: left;
+}
+
+#aboutLink {
+    float: right;
+}
+
+p {
+    margin: 0;
 }
