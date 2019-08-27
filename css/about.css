@@ -1,0 +1,20 @@
+.container {
+    margin: 20px;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.leftImage {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%; 
+}
+
+.rightImgae {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
