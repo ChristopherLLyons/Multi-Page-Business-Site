@@ -10,5 +10,12 @@
 
 #businessDescription {
     text-align: center;
-    margin: 35px;
+    margin: 20px;
+    font-size: 20pt;
+}
+
+#larryFood {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
 }

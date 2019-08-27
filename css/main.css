@@ -14,6 +14,7 @@ body {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 20px;
+    text-align: center;
 }
 
 /* These CSS rules will be applied when we hover over an anchor element inside of an element inside of an element using the header class */
@@ -48,4 +49,27 @@ h1 {
 
 p {
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-family: cursive;
+}
+
+.footer2 {
+    background-color: white;
+    font-family: cursive;
+    color: black;
+    overflow: hidden;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
